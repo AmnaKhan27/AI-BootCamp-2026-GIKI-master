@@ -122,7 +122,7 @@ for row in range(1, 4):
 
     for column in range(1, 4):
 
-        print("*", end=" ")
+        print("*", end=" ")       # the "end" parameter prevents moving to the next line keeping the output on the same line.
 
     print()
 
